@@ -15,76 +15,69 @@
 
 <body style="background-color: #241f1f;">
     <header>
-        <!-- BARRA DE NAVEGACIÓN -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-3 border-bottom border-info" id="navbar">
-            <div id="redes">
-                <ul class="navbar-nav ms-3">
-                    <li class="nav-item me-4">
-                        <a href="https://www.instagram.com/mariano_ivasiuta/" target="_blank">
-                            <img src="../portfolioFrontEnd/imagenes/instagram_icono.png" alt="" width="20" height="20" fill="currentColor">
-                        </a>
-                    </li>
-                    <li class="nav-item me-4">
-                        <a href="https://www.facebook.com/profile.php?id=100006988788396" target="_blank">
-                            <img src="../portfolioFrontEnd/imagenes/facebook_icono.png" alt="" width="16" height="16" fill="currentColor">
-                        </a>
-                    </li>
-                    <li class="nav-item me-4">
-                        <a href="https://twitter.com/nano_ivasiuta" target="_blank">
-                            <img src="../portfolioFrontEnd/imagenes/twitter_icono.png" alt="" width="20" height="20" fill="currentColor">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="container-fluid">
-                <a href="#" class="navbar-brand" id="nombre-navbar">Mariano Ivasiuta</a>
-            </div>
-            <button type="button" class="btn btn-outline-info me-2" data-bs-toggle="button" autocomplete="off">Registrarme</button>
-            <button type="button" class="btn btn-outline-info me-2" data-bs-toggle="button" autocomplete="off">Login</button>
-    </nav>
-        
-    <!-- PRESENTACIÓN DEL PERFIL -->
-
-    <div class="container">
-        
-        <div class="row">
-            
-            <div class="col-sm-12 p-2">
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="../portfolioFrontEnd/imagenes/presentacion_perfil1.png" class="d-block w-100" alt="" widht="720 px" height="500 px">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="../portfolioFrontEnd/imagenes/presentacion_perfil2.png" class="d-block w-100" alt="..." widht="720 px" height="500 px">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="../portfolioFrontEnd/imagenes/presentacion_perfil3.png" class="d-block w-100" alt="..." widht="720 px" height="500 px">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="../portfolioFrontEnd/imagenes/presentacion_perfil4.png" class="d-block w-100" alt="..." widht="720 px" height="500 px">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="previous">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-
+      <!-- BARRA DE NAVEGACIÓN -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-3 border-bottom border-info" id="navbar">
+        <div id="redes">
+          <ul class="navbar-nav ms-3">
+            <li class="nav-item me-4">
+              <a href="https://www.instagram.com/mariano_ivasiuta/" target="_blank">
+                <img src="../portfolioFrontEnd/imagenes/instagram_icono.png" alt="" width="20" height="20" fill="currentColor">
+              </a>
+            </li>
+            <li class="nav-item me-4">
+              <a href="https://www.facebook.com/profile.php?id=100006988788396" target="_blank">
+                <img src="../portfolioFrontEnd/imagenes/facebook_icono.png" alt="" width="16" height="16" fill="currentColor">
+              </a>
+            </li>
+            <li class="nav-item me-4">
+              <a href="https://twitter.com/nano_ivasiuta" target="_blank">
+                <img src="../portfolioFrontEnd/imagenes/twitter_icono.png" alt="" width="20" height="20" fill="currentColor">
+              </a>
+            </li>
+          </ul>
         </div>
-    </div>
+
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand" id="nombre-navbar">Mariano Ivasiuta</a>
+        </div>
+        <button type="button" class="btn btn-outline-info me-2" data-bs-toggle="button" autocomplete="off">Registrarme</button>
+        <button type="button" class="btn btn-outline-info me-2" data-bs-toggle="button" autocomplete="off">Login</button>
+      </nav>
+      
+      <!-- PRESENTACIÓN DEL PERFIL -->
+      <div class="card mat-card" id="first-card">
+        <div id="profile-background"><img src="../portfolioFrontEnd/imagenes/PORTADA.png" alt="" style="height: 60%; width: 100%; border-top-right-radius: 50px;border-top-left-radius: 50px;"></div>
+        <div id="info" style="padding: 16px">
+          <div id="info-img" >
+            <img  class="profile-image" src="../portfolioFrontEnd/imagenes/foto_perfil.jpg" alt="" style="position: absolute; margin-top: -350px">
+            <div class="btn-edit" style="margin-left: 150px;"> <a href="#" id="editarPerfil">
+              <svg style="margin-top: -480px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill-rule="evenodd" d="M17.263 2.177a1.75 1.75 0 012.474 0l2.586 2.586a1.75 1.75 0 010 2.474L19.53 10.03l-.012.013L8.69 20.378a1.75 1.75 0 01-.699.409l-5.523 1.68a.75.75 0 01-.935-.935l1.673-5.5a1.75 1.75 0 01.466-.756L14.476 4.963l2.787-2.786zm-2.275 4.371l-10.28 9.813a.25.25 0 00-.067.108l-1.264 4.154 4.177-1.271a.25.25 0 00.1-.059l10.273-9.806-2.94-2.939zM19 8.44l2.263-2.262a.25.25 0 000-.354l-2.586-2.586a.25.25 0 00-.354 0L16.061 5.5 19 8.44z"></path></svg></a><i class="fa fa-pen"></i>
+            </div>
+          </div>
+          <div class="card-body" id="info-data" style="margin-top: -230px">
+            <div>
+              <h1>Ivasiuta Mariano</h1>
+              <div id="info-company">Analista en sistemas</div>
+              <div id="info-contract">
+                <span>Misiones (Argentina)</span>
+                <span><a href="#">Información de contacto</a></span>
+              </div>
+              <br>
+              <div class="image-container" > 
+                <img src="imagenes/Arg Programa.jpg" alt="" style="margin-top: -310px; margin-left: 1100px;">
+              </div>
+              <div style="margin-top: -30px">
+                <a class="btn btn-primary" href="#" role="button">Tengo interés en</a>
+                <a class="btn btn-secondary" href="#" role="button">Añadir sección</a>
+                <a class="btn btn-secondary" href="#" role="button">Más</a>
+              </div>
+            </div>
+              
+          </div>
+        </div>
+        
+      </div>
+      
 
     
         
