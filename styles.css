@@ -24,7 +24,43 @@
     border-color: lightgray;
     border-radius: 50px;
     width: 1338px;
-    height: 650px;
+    height: 690px;
+    margin-top: 8px;
+    margin-right: 25px;
+    margin-left: 5px;
+    padding-bottom: 0%;
+}
+
+#second-card{
+    border: solid;
+    border-color: lightgray;
+    border-radius: 50px;
+    width: 1338px;
+    height: 150px;
+    margin-top: 8px;
+    margin-right: 25px;
+    margin-left: 5px;
+    padding-bottom: 0%;
+}
+
+#third-card{
+    border: solid;
+    border-color: lightgray;
+    border-radius: 50px;
+    width: 1338px;
+    height: 130px;
+    margin-top: 8px;
+    margin-right: 25px;
+    margin-left: 5px;
+    padding-bottom: 0%;
+}
+
+#fourth-card{
+    border: solid;
+    border-color: lightgray;
+    border-radius: 50px;
+    width: 1338px;
+    height: 200px;
     margin-top: 8px;
     margin-right: 25px;
     margin-left: 5px;
