@@ -66,3 +66,21 @@
     margin-left: 5px;
     padding-bottom: 0%;
 }
+
+#fifth-card {
+    border: solid;
+    border-color: lightgray;
+    border-radius: 50px;
+    width: 1338px;
+    height: 220px;
+    margin-top: 8px;
+    margin-right: 25px;
+    margin-left: 5px;
+    padding-bottom: 0%;
+}
+
+.info-proyectos{
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: -1%;
+}
