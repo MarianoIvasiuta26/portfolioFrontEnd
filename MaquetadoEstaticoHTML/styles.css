@@ -12,23 +12,54 @@
 }
 
 .profile-image{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 100px;
     z-index: 0;
 }
 
+#info-perfil{
+    margin-top: 3%;
+    margin-left: 10%;
+    color: cornflowerblue;
+    
+}
+
+#nombre{
+    margin-left: -2%;
+}
+
+#sobre-mi{
+    color: cornflowerblue;
+    margin-top: 2%;
+    font-size: 50px;
+    margin-left: 35%;
+}
+
+#info-personal{
+    margin-top: -20%;
+    color: white;
+    background-color: #212222;
+    height: 450px;
+    width: 803px;
+    position: relative;
+    margin-left: 40%;
+    font-size: 24px;
+    padding: 2%;
+}
 
 #first-card{
-    border: solid;
-    border-color: lightgray;
-    border-radius: 50px;
-    width: 1338px;
+    border-radius: 0%;
     height: 690px;
-    margin-top: 8px;
-    margin-right: 25px;
-    margin-left: 5px;
-    padding-bottom: 0%;
+    background-color: #181414;
+}
+
+#bienvenida{
+    position: relative;
+    margin-left: 30%;
+    margin-top: 5%;
+    color: #b4ddf1;
+    padding-bottom: 5%;
 }
 
 #second-card{

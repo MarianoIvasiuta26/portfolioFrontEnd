@@ -21,17 +21,17 @@
         <ul class="navbar-nav ms-3">
           <li class="nav-item me-4">
             <a href="https://www.instagram.com/mariano_ivasiuta/" target="_blank">
-              <img src="../MaquetadoEstáticoHTML/imagenes/instagram_icono.png" alt="" width="20" height="20" fill="currentColor">
+              <img src="../MaquetadoEstaticoHTML/imagenes/instagram_icono.png" alt="" width="20" height="20" fill="currentColor">
             </a>
           </li>
           <li class="nav-item me-4">
             <a href="https://www.facebook.com/profile.php?id=100006988788396" target="_blank">
-              <img src="../MaquetadoEstáticoHTML/imagenes/facebook_icono.png" alt="" width="16" height="16" fill="currentColor">
+              <img src="../MaquetadoEstaticoHTML/imagenes/facebook_icono.png" alt="" width="16" height="16" fill="currentColor">
             </a>
           </li>
           <li class="nav-item me-4">
             <a href="https://twitter.com/nano_ivasiuta" target="_blank">
-              <img src="../MaquetadoEstáticoHTML/imagenes/twitter_icono.png" alt="" width="20" height="20" fill="currentColor">
+              <img src="../MaquetadoEstaticoHTML/imagenes/twitter_icono.png" alt="" width="20" height="20" fill="currentColor">
             </a>
           </li>
         </ul>
@@ -43,186 +43,36 @@
       <button type="button" class="btn btn-outline-info me-2" data-bs-toggle="button" autocomplete="off">Registrarme</button>
       <button type="button" class="btn btn-outline-info me-2" data-bs-toggle="button" autocomplete="off">Login</button>
     </nav>
-    
+
     <!-- PRESENTACIÓN DEL PERFIL -->
     <div class="card mat-card" id="first-card">
-      <div id="profile-background"><img src="../MaquetadoEstáticoHTML/imagenes/PORTADA.png" alt="" style="height: 60%; width: 100%; border-top-right-radius: 50px;border-top-left-radius: 50px;"></div>
-      <div id="info" style="padding: 16px">
-        <div id="info-img" >
-          <img  class="profile-image" src="../MaquetadoEstáticoHTML/imagenes/foto_perfil.jpg" alt="" style="position: absolute; margin-top: -350px">
-          <div class="btn-edit" style="margin-left: 150px;"> <a href="#" id="editarPerfil">
-            <svg style="margin-top: -480px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill-rule="evenodd" d="M17.263 2.177a1.75 1.75 0 012.474 0l2.586 2.586a1.75 1.75 0 010 2.474L19.53 10.03l-.012.013L8.69 20.378a1.75 1.75 0 01-.699.409l-5.523 1.68a.75.75 0 01-.935-.935l1.673-5.5a1.75 1.75 0 01.466-.756L14.476 4.963l2.787-2.786zm-2.275 4.371l-10.28 9.813a.25.25 0 00-.067.108l-1.264 4.154 4.177-1.271a.25.25 0 00.1-.059l10.273-9.806-2.94-2.939zM19 8.44l2.263-2.262a.25.25 0 000-.354l-2.586-2.586a.25.25 0 00-.354 0L16.061 5.5 19 8.44z"></path></svg></a><i class="fa fa-pen"></i>
-          </div>
-        </div>
-        <div class="card-body" id="info-data" style="margin-top: -230px">
-          <div>
-            <h1>Ivasiuta Mariano</h1>
-            <div id="info-company">Analista en sistemas</div>
-            <div id="info-company">Licenciatura en sistemas</div>
-            <div id="info-company">Profesor universitario en computación</div>
-            <div id="info-contract">
-              <span>Misiones (Argentina)</span>
-              <span><a href="#">Información de contacto</a></span>
-            </div>
-            <br>
-            <div class="image-container" > 
-              <img src="../MaquetadoEstáticoHTML/imagenes/Arg Programa.jpg" alt="" style="margin-top: -310px; margin-left: 1100px;">
-            </div>
-            <div style="margin-top: -30px">
-              <a class="btn btn-primary" href="#" role="button">Tengo interés en</a>
-              <a class="btn btn-secondary" href="#" role="button">Añadir sección</a>
-              <a class="btn btn-secondary" href="#" role="button">Más</a>
-            </div>
-          </div>        
-        </div>
+      <div id="bienvenida">
+        <h1> Bienvenido/a a mi portfolio!</h1>
       </div>
-    </div>  
+
+      
+      <div id="info-perfil">
+        <img class="profile-image" src="../MaquetadoEstaticoHTML/imagenes/foto_perfil.jpg" alt="" >
+        <h2 id="nombre">Ivasiuta Mariano</h2>
+      </div>
+
+      <div id="info-personal">
+        <h2 id="sobre-mi">Sobre mi</h2> <br>
+        <p>¡Hola!, me presento formalmente, me llamo Mariano. <br>
+          Soy un estudiante de Analista en Sistemas, Licenciatura en Sistemas de Información y Profesorado Universitario en Computación.
+          Estoy en el tercer año de las tres carreras anteriormente mencionadas. <br>
+          Durante el transcurso, fuí instruyéndome en programación web full stack con Java. Realicé un bootcamp de Telecom y Alumni y participo de Argentina Programa.
+        </p>
+      </div>
+      
+  
+    </div>
+
   </header>
   
   
   <section>
-    <!-- Sección Acerca de -->
-    <div class= "card mat-card" id="second-card">
-      <div id="info2" style="padding: 16px;">
-        <div class="card-body" style="margin-top: -20px">
-          <h1>Acerca de</h1>
-          <div class="btn-edit" style="margin-left: 1250px;">
-            <a href="#" id="editarExp">
-               <svg style="margin-top: -80px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill-rule="evenodd" d="M17.263 2.177a1.75 1.75 0 012.474 0l2.586 2.586a1.75 1.75 0 010 2.474L19.53 10.03l-.012.013L8.69 20.378a1.75 1.75 0 01-.699.409l-5.523 1.68a.75.75 0 01-.935-.935l1.673-5.5a1.75 1.75 0 01.466-.756L14.476 4.963l2.787-2.786zm-2.275 4.371l-10.28 9.813a.25.25 0 00-.067.108l-1.264 4.154 4.177-1.271a.25.25 0 00.1-.059l10.273-9.806-2.94-2.939zM19 8.44l2.263-2.262a.25.25 0 000-.354l-2.586-2.586a.25.25 0 00-.354 0L16.061 5.5 19 8.44z"></path></svg>
-           </a><i class="fa fa-pen"></i>
-          </div>
-          <div id="info-description" style="margin-top: -20px;">
-           <p id="text-acercade">Informático, misionero con muchas ganas de aprender e insertarse en el ámbito laboral. </p>
-          </div>
-        </div>
-      </div>    
-    </div>
-
-    <!-- Sección Experiencia -->
-    <div class="card mat-card" id="third-card">
-      <div id="info3" style="padding: 16px;">
-        <div class="card-body" style="margin-top: -20px;">
-          <h1>Experiencia</h1>
-          <div class="btn-add" style="margin-left: 1250px;">
-            <a href="#" id="AgregarExp">
-              <svg style= "margin-top: -80px; color:black; width: 25px; height: 25px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
-                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
-                </svg>
-            </a>
-        </div>
-        <div class="btn-delete" style="margin-left: 1250px;">
-          <a href="#" id="eliminarExp">
-            <svg style= "margin-top: -50px; color:black; width: 25px; height: 25px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
-              <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
-              <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
-              </svg>
-          </a>
-        </div>
-        <div class="btn-edit" style="margin-left: 1210px;" > 
-          <a href="#" id="editarExp">
-            <svg style="margin-top: -99px; " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill-rule="evenodd" d="M17.263 2.177a1.75 1.75 0 012.474 0l2.586 2.586a1.75 1.75 0 010 2.474L19.53 10.03l-.012.013L8.69 20.378a1.75 1.75 0 01-.699.409l-5.523 1.68a.75.75 0 01-.935-.935l1.673-5.5a1.75 1.75 0 01.466-.756L14.476 4.963l2.787-2.786zm-2.275 4.371l-10.28 9.813a.25.25 0 00-.067.108l-1.264 4.154 4.177-1.271a.25.25 0 00.1-.059l10.273-9.806-2.94-2.939zM19 8.44l2.263-2.262a.25.25 0 000-.354l-2.586-2.586a.25.25 0 00-.354 0L16.061 5.5 19 8.44z"></path></svg>
-          </a><i class="fa fa-pen"></i>
-        </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Sección Educación -->
-    <div class="card mat-card" id="fourth-card">
-      <div id="info4" style="padding: 16px;">
-        <div id="profile-education">
-          <div class="card-body" style="margin-top: -20px;">
-              <h1>Educación</h1>
-              <div class="btn-add" style="margin-left: 1250px;">
-                  <a href="#" id="AgregarEduc">
-                      <svg style= "margin-top: -80px; color:black; width: 25px; height: 25px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
-                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                          <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
-                        </svg>
-                  </a>
-              </div>
-              <div class="btn-delete" style="margin-left: 1250px;">
-                  <a href="#" id="eliminarEduc">
-                      <svg style= "margin-top: -5%; color:black; width: 25px; height: 25px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
-                          <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
-                          <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
-                        </svg>
-                  </a>
-              </div>
-              <div class="btn-edit" style="margin-left: 1210px;" > 
-                  <a href="#" id="editarEduc">
-                      <svg style="margin-top: -55px; " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill-rule="evenodd" d="M17.263 2.177a1.75 1.75 0 012.474 0l2.586 2.586a1.75 1.75 0 010 2.474L19.53 10.03l-.012.013L8.69 20.378a1.75 1.75 0 01-.699.409l-5.523 1.68a.75.75 0 01-.935-.935l1.673-5.5a1.75 1.75 0 01.466-.756L14.476 4.963l2.787-2.786zm-2.275 4.371l-10.28 9.813a.25.25 0 00-.067.108l-1.264 4.154 4.177-1.271a.25.25 0 00.1-.059l10.273-9.806-2.94-2.939zM19 8.44l2.263-2.262a.25.25 0 000-.354l-2.586-2.586a.25.25 0 00-.354 0L16.061 5.5 19 8.44z"></path></svg>
-                  </a><i class="fa fa-pen"></i>
-              </div>
-
-              <div class="image-container" style="margin-top: -60px;" > 
-                  <img src="../MaquetadoEstáticoHTML/imagenes/FCEQyN_1.png" alt="" style=" width: 80px; height: 60px;">
-              </div>
-
-              <div class="info-education" style="margin-top: -50px; margin-left: 80px">
-                <h2>FCEQyN</h2>
-                <span style="font-family: Arial;">Sistemas</span> <br>
-                <span style="font-family: Arial; color:grey; font-family: bold">2020-Actualidad</span>
-              </div>
-            </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Sección Proyectos -->
-    <div class="card mat-card" id="fifth-card">
-      <div id="info5" style="padding: 16px;">
-        <div id="profile-proyectos">
-          <div class="card-body" style="margin-top: -20px;">
-            <h1>Proyectos</h1>
-            <div class="btn-add" style="margin-left: 1250px;">
-              <a href="#" id="AgregarProyectos">
-                  <svg style= "margin-top: -80px; color:black; width: 25px; height: 25px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
-                      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                      <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
-                    </svg>
-              </a>
-            </div>
-            <div class="info-proyectos">
-              <!-- Ejemplo proyectos 1 -->
-              <a href="#" style="text-decoration: none; font-size: 20px;">Ejemplo1</a> <br>
-              <span style="font-family: Arial; color:grey; font-family: bold">Aquí va la descripción del proyecto correspondiente</span>
-              <div class="btn-delete" style="margin-left: 1200px; margin-top: -2.5%;">
-                <a href="#" id="eliminarEduc">
-                  <svg style= "margin-top: -50px; color:black; width: 25px; height: 25px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
-                    <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
-                    <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
-                  </svg>
-                </a>
-              </div>
-              <div class="btn-edit" style="margin-left: 1160px;" > 
-                <a href="#" id="editarEduc">
-                  <svg style="margin-top: -99px; " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill-rule="evenodd" d="M17.263 2.177a1.75 1.75 0 012.474 0l2.586 2.586a1.75 1.75 0 010 2.474L19.53 10.03l-.012.013L8.69 20.378a1.75 1.75 0 01-.699.409l-5.523 1.68a.75.75 0 01-.935-.935l1.673-5.5a1.75 1.75 0 01.466-.756L14.476 4.963l2.787-2.786zm-2.275 4.371l-10.28 9.813a.25.25 0 00-.067.108l-1.264 4.154 4.177-1.271a.25.25 0 00.1-.059l10.273-9.806-2.94-2.939zM19 8.44l2.263-2.262a.25.25 0 000-.354l-2.586-2.586a.25.25 0 00-.354 0L16.061 5.5 19 8.44z"></path></svg>
-                </a><i class="fa fa-pen"></i>
-              </div>
-              <!-- Ejemplo proyectos 2 -->
-              <a href="#" style="text-decoration: none; font-size: 20px;">Ejemplo2</a> <br>
-              <span style="font-family: Arial; color:grey; font-family: bold">Aquí va la descripción del proyecto correspondiente</span>
-              <div class="btn-delete" style="margin-left: 1200px; margin-top: -2.5%;">
-                <a href="#" id="eliminarEduc">
-                  <svg style= "margin-top: -50px; color:black; width: 25px; height: 25px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
-                    <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
-                    <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
-                  </svg>
-                </a>
-              </div>
-              <div class="btn-edit" style="margin-left: 1160px;" > 
-                <a href="#" id="editarEduc">
-                  <svg style="margin-top: -99px; " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill-rule="evenodd" d="M17.263 2.177a1.75 1.75 0 012.474 0l2.586 2.586a1.75 1.75 0 010 2.474L19.53 10.03l-.012.013L8.69 20.378a1.75 1.75 0 01-.699.409l-5.523 1.68a.75.75 0 01-.935-.935l1.673-5.5a1.75 1.75 0 01.466-.756L14.476 4.963l2.787-2.786zm-2.275 4.371l-10.28 9.813a.25.25 0 00-.067.108l-1.264 4.154 4.177-1.271a.25.25 0 00.1-.059l10.273-9.806-2.94-2.939zM19 8.44l2.263-2.262a.25.25 0 000-.354l-2.586-2.586a.25.25 0 00-.354 0L16.061 5.5 19 8.44z"></path></svg>
-                </a><i class="fa fa-pen"></i>
-              </div>
-            </div>
-          </div>  
-        </div>      
-      </div>          
-    </div>
-
+ 
   </section>
 
   <footer>
