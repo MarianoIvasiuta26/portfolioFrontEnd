@@ -63,27 +63,32 @@
 }
 
 #second-card{
-    border: solid;
-    border-color: lightgray;
-    border-radius: 50px;
-    width: 1338px;
-    height: 150px;
-    margin-top: 8px;
-    margin-right: 25px;
-    margin-left: 5px;
-    padding-bottom: 0%;
+    border-radius: 0%;
+    height: 690px;
+    background-color: #03030f;
+}
+
+#educacion{
+    color: cornflowerblue;
+    margin-top: 2%;
+    font-size: 50px;
+    margin-left: 40%;
 }
 
 #third-card{
-    border: solid;
-    border-color: lightgray;
-    border-radius: 50px;
-    width: 1338px;
-    height: 130px;
-    margin-top: 8px;
-    margin-right: 25px;
-    margin-left: 5px;
-    padding-bottom: 0%;
+    border-radius: 0%;
+    height: 690px;
+    background-color: #181414;
+}
+
+#info-proyectos{
+    color: cornflowerblue;
+    margin-top: 2%;
+    margin-left: 40%;
+}
+
+#proyectos{
+    font-size: 50px;
 }
 
 #fourth-card{

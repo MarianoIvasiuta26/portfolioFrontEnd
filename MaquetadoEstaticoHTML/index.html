@@ -44,6 +44,10 @@
       <button type="button" class="btn btn-outline-info me-2" data-bs-toggle="button" autocomplete="off">Login</button>
     </nav>
 
+  </header>
+  
+  
+  <section>
     <!-- PRESENTACIÓN DEL PERFIL -->
     <div class="card mat-card" id="first-card">
       <div id="bienvenida">
@@ -64,15 +68,100 @@
           Durante el transcurso, fuí instruyéndome en programación web full stack con Java. Realicé un bootcamp de Telecom y Alumni y participo de Argentina Programa.
         </p>
       </div>
-      
-  
     </div>
 
-  </header>
+     <!-- Sección Educación -->
+    <div class="card mat-card" id="second-card">
+      <div id="info-educacion">
+        <h2 id="educacion">Educación</h2> <br>
+        <div class="container">
+        
+          <div class="row">
+              
+              <div class="col-sm-12 p-2">
+                  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="../MaquetadoEstaticoHTML/imagenes/analista.png" class="d-block w-100" alt="..." widht="720 px" height="500 px">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="../MaquetadoEstaticoHTML/imagenes/lic.png" class="d-block w-100" alt="..." widht="720 px" height="500 px">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="../MaquetadoEstaticoHTML/imagenes/puc.png" class="d-block w-100" alt="..." widht="720 px" height="500 px">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="previous">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                  </div>
+              </div>
   
-  
-  <section>
- 
+          </div>
+      </div>
+      </div>
+
+    </div>
+
+    <!-- Sección Proyectos -->
+    <div class="card mat-card" id="third-card"> 
+      <div id="info-proyectos">
+        <h2 id="proyectos">Proyectos</h2> <br>
+      </div>
+
+      <div id="grupo-proyectos" class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-1">
+          <div class="col">
+            <div class="card h-100">
+              <a href="#"><img src="../MaquetadoEstaticoHTML/imagenes/calculadora.PNG" class="card-img-top" alt="imagen de la calculadora desarrollada en JS" ></a>
+              <div class="card-body">
+                <h5 class="card-title">Calculadora JavaScript</h5>
+                <p class="card-text">Pequeña calculadora con operaciones básicas de modo de práctica del lenguaje JavaScript.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted"><a href="https://github.com/MarianoIvasiuta26/proyectoCalculadora-JavaScript" style="text-decoration: none; text-decoration-color: darkblue;"> <strong>Repositorio</strong></a></small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+             <a href="#"><img src="../MaquetadoEstaticoHTML/imagenes/gym.jpg" class="card-img-top" alt="Sistema UltraForce GYM"></a>
+              <div class="card-body">
+                <h5 class="card-title">UltraForce GYM</h5>
+                <p class="card-text">Sistema para la gestión de un GYM desarrollada con Java para el integrador de la materia POO I de la carrera de Licenciatura en Sistemas.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted"><a href="#" style="text-decoration: none; text-decoration-color: darkblue;"> <strong>Repositorio</strong></a></small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <a href="#"><img src="../MaquetadoEstaticoHTML/imagenes/psicoapost.png" class="card-img-top" alt="..." style="height: 240px; "></a> 
+              <div class="card-body">
+                <h5 class="card-title">PsicoApost - Consultorio Psicológico</h5>
+                <p class="card-text">Sistema web para la gestión y administración de un consultorio psicológico con Spring Boot. Desarrollo del sistema aplicando metodologías de ingeniería de software para la materia de POO II de la carrera de Licenciatura en Sistemas.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted"><a href="#" style="text-decoration: none; text-decoration-color: darkblue;"> <strong>Repositorio</strong></a></small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
   </section>
 
   <footer>
