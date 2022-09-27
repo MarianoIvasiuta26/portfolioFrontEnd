@@ -1,8 +1,17 @@
 #nombre-navbar {
     color: #b4ddf1;
     font-size: 35px;
-    margin-left: 38%;
+    margin-left: 28%;
 }
+
+#logoAP{
+    width: 150px;
+}
+
+#portada{
+    height: 60%; width: 100%; 
+}
+
 #redes {
     position: relative;
 }
@@ -19,48 +28,67 @@
 }
 
 #info-perfil{
-    margin-top: 3%;
-    margin-left: 10%;
-    color: cornflowerblue;
-    
+    margin-left: 535px;
+    color: white;
+    position: relative;
+    margin-top: -50px;
+    width: 280px;
+    text-align: center;
 }
 
 #nombre{
     margin-left: -2%;
 }
 
+#developer{
+    font-size: 20px;
+    font-style:italic;
+}
+
+#descripcion{
+    margin-left: 22%;
+    color: white;
+    margin-top: -120px;
+}
+
 #sobre-mi{
     color: cornflowerblue;
-    margin-top: 2%;
-    font-size: 50px;
-    margin-left: 35%;
+    font-size: 30px;
+    text-align: center;
 }
 
 #info-personal{
-    margin-top: -20%;
+    margin-top: 50px;
     color: white;
-    background-color: #212222;
     height: 450px;
-    width: 803px;
     position: relative;
-    margin-left: 40%;
-    font-size: 24px;
-    padding: 2%;
+    font-size: 22px;
+    padding-top: 5%;
+    text-align: center;
+    background-color: #0e0c0c;
 }
 
 #first-card{
     border-radius: 0%;
     height: 690px;
     background-color: #181414;
+    margin-top: 10%;
 }
 
 #bienvenida{
     position: relative;
     margin-left: 30%;
-    margin-top: 5%;
-    color: #b4ddf1;
+    margin-top: -35%;
+    color: white;
     padding-bottom: 5%;
+    border: solid;
+    border-color: cornflowerblue;
+    width: 530px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(23, 32, 58);
 }
+
 
 #second-card{
     border-radius: 0%;
@@ -72,7 +100,7 @@
     color: cornflowerblue;
     margin-top: 2%;
     font-size: 50px;
-    margin-left: 40%;
+    margin-left: 41%;
 }
 
 #third-card{
@@ -84,25 +112,32 @@
 #info-proyectos{
     color: cornflowerblue;
     margin-top: 2%;
-    margin-left: 40%;
+    margin-left: 41%;
 }
 
 #proyectos{
     font-size: 50px;
 }
 
-
-
 #fourth-card{
-    border: solid;
-    border-color: lightgray;
-    border-radius: 50px;
-    width: 1338px;
-    height: 200px;
-    margin-top: 8px;
-    margin-right: 25px;
-    margin-left: 5px;
-    padding-bottom: 0%;
+    border-radius: 0%;
+    height: 690px;
+    background-color: #181414;
+    height: 350px;
+}
+
+#info-experiencia{
+    color: white;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: 22px;
+    text-align: center;
+}
+
+#experiencia{
+    font-size: 50px;
+    color: cornflowerblue;
+    margin-left: -40px;
 }
 
 #fifth-card {
@@ -115,10 +150,4 @@
     margin-right: 25px;
     margin-left: 5px;
     padding-bottom: 0%;
-}
-
-.info-proyectos{
-    font-weight: bold;
-    margin-left: 4%;
-    margin-top: -1%;
 }
