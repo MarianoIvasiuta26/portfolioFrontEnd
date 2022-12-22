@@ -1,7 +1,7 @@
 #nombre-navbar {
     color: #b4ddf1;
     font-size: 35px;
-    margin-left: 28%;
+    margin-left: 24%;
 }
 
 #logoAP{
@@ -53,8 +53,9 @@
 
 #sobre-mi{
     color: cornflowerblue;
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
+    margin-top: -30px;
 }
 
 #info-personal{
@@ -151,3 +152,4 @@
     margin-left: 5px;
     padding-bottom: 0%;
 }
+
